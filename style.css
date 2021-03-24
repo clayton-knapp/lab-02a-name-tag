@@ -63,3 +63,20 @@ footer {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
+#blue-button {
+    color:white;
+    background-color: blue;
+}
+#green-button {
+    color:white;
+    background-color: green;
+}
+#yellow-button {
+    color:black;
+    background-color:yellow;
+}
+#red-button {
+    color:white;
+    background-color: red;
+}

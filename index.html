@@ -11,30 +11,40 @@
 
 <body>
     <div class="gray-paper">
-      <header>
+      <header id='header'>
             <h1>HELLO</h1>
             <h2> my name is</h2>
       </header>
 
       <content>
-         <p>Clayton Knapp</p>
+         <p id="name-display">Clayton Knapp</p>
+         <p>(<span id="pronoun-display">he/him</span>)</p>
       </content>
 
-      <footer>
-
+      <footer id="footer">
       </footer>
+
     </div>
-    
+    <br>
+    <span>Enter new name here:</span>
+    <input id="name-input">
+    <button id="change-button">Change Name</button>
+    <br>
+
+    <span>Change name tag color:</span>
+    <button id="blue-button">Blue</button>
+    <button id="green-button">Green</button>
+    <button id="yellow-button">Yellow</button>
+    <button id="red-button">Red</button>
+  
+    <br>
+
+    <span>Enter pronouns here:</span>
+    <input id="pronoun-input">
+    <button id="pronoun-button">Change Pronouns</button>
 
 
-
-
-
-
-
-
-
-
+    <script type="module" src="app.js"></script>
 </body>
 
 </html>
